@@ -7,17 +7,12 @@ module Program =
 
     let exitCode = 0
 
-    type PingResponse = { pong: bool }
-
     [<EntryPoint>]
     let main args =
         let builder = WebApplication.CreateBuilder(args)
         let app = builder.Build()
 
-
-        let ping () : IResult = Results.Ok { pong = false }
-
-        app.MapGet("/ping", Func<IResult> ping)
+        app.MapGet("/ping", Func<IResult> Controller.System.ping)
 
         app.Run()
         exitCode

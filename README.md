@@ -5,4 +5,4 @@
 - dotnet add package Microsoft.AspNetCore
 - dotnet add package Microsoft.AspNetCore.App
 - dotnet watch
-- curl -v http://localhost:5000/pin
+- curl -v http://localhost:5000/ping
