@@ -14,5 +14,8 @@ module Program =
 
         app.MapGet("/ping", Func<IResult> Controller.System.ping)
 
+        // ランダムに犬種が返されるエンドポイントを作成する
+        app.MapGet("/dog", Func<IResult> Controller.Dog.controller)
+
         app.Run()
         exitCode
