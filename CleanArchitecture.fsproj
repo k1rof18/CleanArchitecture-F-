@@ -4,7 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Controller/Dog.fs" />
+    <Compile Include="Domain/*" />
+    <Compile Include="Usecase/*" />
     <Compile Include="Controller/*" />
     <Compile Include="Program.fs" />
   </ItemGroup>

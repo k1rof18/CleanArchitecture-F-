@@ -9,3 +9,6 @@
 
 # 犬種固定で返す
 - curl -v http://localhost:5000/dog
+
+# usecase,domainの定義をして、犬種固定で返す
+- curl -v http://localhost:5000/dog
