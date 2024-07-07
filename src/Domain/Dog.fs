@@ -1,3 +1,3 @@
-namespace Domain
+namespace Src.Domain
 
 type Dog = { breed: string }

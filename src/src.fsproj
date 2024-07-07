@@ -8,12 +8,17 @@
     <Compile Include="Port/*.fs" />
     <Compile Include="Driver/InMemoryDB/*" />
     <Compile Include="Gateway/*.fs" />
+    <Compile Include="DIContainer.fs" />
     <Compile Include="Usecase/*" />
     <Compile Include="Controller/*" />
     <Compile Include="Program.fs" />
+    <Compile Include="Test/*" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FSharpPlus" Version="1.6.1" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.8" />
+    <PackageReference Include="NUnit" Version="4.1.0" />
+    <PackageReference Include="Reader" Version="1.0.0" />
   </ItemGroup>
 </Project>

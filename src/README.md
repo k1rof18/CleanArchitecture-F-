@@ -1,5 +1,5 @@
 # create project
-- dotnet new console -lang="F#" -o="CleanArchitecture"
+- dotnet new console -lang="F#" -o="src"
 
 # ping確認
 - dotnet add package Microsoft.AspNetCore

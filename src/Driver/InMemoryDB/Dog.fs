@@ -1,4 +1,4 @@
-namespace Driver.InMemoryDB
+namespace Src.Driver.InMemoryDB
 
 module Dogs =
     let ListDogs () : string list =
