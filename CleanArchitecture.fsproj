@@ -5,6 +5,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Domain/*" />
+    <Compile Include="Port/*.fs" />
+    <Compile Include="Driver/InMemoryDB/*" />
+    <Compile Include="Gateway/*.fs" />
     <Compile Include="Usecase/*" />
     <Compile Include="Controller/*" />
     <Compile Include="Program.fs" />
